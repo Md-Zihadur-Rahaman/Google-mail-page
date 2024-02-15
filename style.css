@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+}
+
+/* left side menu start */
+.left {
+  background-color: #eaf1fb;
+  width: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 8px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#first-icon {
+  margin-bottom: 20px;
+}
+
+.icon img {
+  object-fit: contain;
+  width: 5vw;
+  height: 5vh;
+}
+.icon span {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+.icon img:hover {
+  background-color: #dde3ec;
+  border-radius: 50%;
+}
+/* left side menu end */
+
+/* beside left side menu start */
+.beside-left {
+  background-color: #f2f2f2;
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.gmail-logo {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+.gmail-logo img {
+  width: 40%;
+  height: 10vh;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.compose {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  background-color: #c2e7ff;
+  border: 2px solid #c2e7ff;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 10px;
+}
+.compose img,
+.inbox img,
+.starred img {
+  max-height: 20px;
+  max-width: 20px;
+}
+.compose p,
+.inbox h6,
+.starred h6 {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25px;
+}
+
+.inbox {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background-color: #d3e3fd;
+  border: 2px solid #d3e3fd;
+  border-radius: 40px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.inbox p {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 90px;
+}
+
+.starred {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+/* beside left side menu start */
+
+/* middle side menu start */
+.middle-side {
+  background-color: #ffffff;
+  width: 70%;
+  height: 100vh;
+}
+/* middle side nav start */
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.search-bar {
+  width: 50%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #eaf1fb;
+  border-radius: 40px;
+  background-color: #eaf1fb;
+  font-weight: bold;
+  margin-left: 7px;
+}
+.search-bar > a > img {
+  max-height: 20px;
+  margin-right: 10px;
+}
+.search > a > img {
+  max-height: 20px;
+  margin-left: 10px;
+}
+.search input {
+  margin-left: 5px;
+  border: none;
+  background-color: #eaf1fb;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  width: 5%;
+  height: 7vh;
+}
+.active > select {
+  display: flex;
+  border: 2px solid #eaf1fb;
+  border-radius: 40px;
+  background-color: #eaf1fb;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+/* middle side nav end */
+
+.msg-container {
+  width: 100%;
+}
+
+/* middle side below nav start */
+/* middle side below nav end */
+
+/* middle side msg heading start */
+/* middle side msg heading end */
+
+/* middle side msg start */
+.msg-table-container {
+  margin-top: 20px;
+}
+.msg-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 8px;
+  padding: 5px 0px;
+  border-top: 1px solid slategray;
+  border-bottom: 1px solid slategray;
+}
+.msg-heading {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.msg-heading img {
+  max-width: 15px;
+  max-height: 15px;
+  margin-left: 5px;
+}
+
+.msg-heading h4 {
+  margin-left: 5px;
+}
+.msg-element {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.msg-text {
+  display: flex;
+  gap: 10px;
+}
+
+/* middle side msg end */
+
+/* middle side menu end */
+
+/* right side menu start */
+.right {
+  background-color: #eaf1fb;
+  width: 5%;
+  height: 100vh;
+}
+/* right side menu end */
